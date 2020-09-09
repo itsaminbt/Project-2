@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Machine Slot</title>
+</head>
+<body>
+    <div class="container">
+        <!--header-->
+        <header class="header">
+            <div class="header-left-part">
+                <img src="assets/cup.png" alt="Cup" class="cup-img">
+                <div class="line"></div>
+                <img src="assets/gladiator.png" alt="gladiator" class="gladiator-img">
+            </div>
+            <div class="logo">
+                <h1>
+                    <span>j</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>k</span>
+                    <span>p</span>
+                    <span>o</span>
+                    <span>t</span>
+                </h1>
+            </div>
+            <div class="header-right-part">
+                <div class="sword">
+                    <img src="assets/sword.png" alt="sword" class="sword-img">
+                </div>
+                <div class="coins-container">
+                    <img src="assets/star.png" class="star">
+                    <div class="coins-wrapper">
+                        <div class="coin-bar"></div>
+                    </div>
+                    <img src="assets/coin.png" class="coin">
+                </div>
+            </div>
+        </header>
+        <!--End of header-->
+        <!--Reels-->
+        <section class="reels-container">
+            <div class="reels-wrapper">
+                <div class="reels-header">
+                    <h1 class="heading">caesar&cleopatra</h1>
+                    <div class="expand-btn-border">
+                        <div class="expand-btn">
+                            <i class="fas fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="reels">
+                    <div class="reel">
+                        <div class="reel-card">
+                            <img src="assets/romansoldier-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/cleopatra.png" class="reel-img">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/caesar.jpg" class="reel-img">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/romansoldier-2.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/gladiator-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/romansoldier-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div> 
+                        </div>
+                    </div>
+                    <div class="reel">
+                        <div class="reel-card">
+                            <img src="assets/cleopatra.png" class="reel-img">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/romansoldier-2.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/gladiator-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/caesar.jpg" class="reel-img">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/romansoldier-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/cleopatra.png" class="reel-img">
+                            <div class="reel-img empty"></div> 
+                        </div>
+                    </div>
+                    <div class="reel">
+                        <div class="reel-card">
+                            <img src="assets/gladiator-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/caesar.jpg" class="reel-img">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/cleopatra.png" class="reel-img">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/romansoldier-2.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/romansoldier-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>
+                            <img src="assets/gladiator-1.png" class="reel-img soldier">
+                            <div class="reel-img empty"></div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="reels-footer">
+                    <div class="balance-container">
+                        <div class="balance-text">Balance</div>
+                        <div class="balance-coin">1200</div>
+                    </div>
+                    <div class="spin-container">
+                    <button class="spin">
+                        <p>Spin</p>
+                        <div class="refresh-icon">
+                            <i class="fas fa-redo"></i>
+                        </div>
+                    </button>
+                    </div>
+                    <div class="win-container">
+                        <div class="win-text">Win</div>
+                        <div class="win-amount">0</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--End of Reels-->
+    </div>
+    <script src="https://lib.arvancloud.com/ar/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://lib.arvancloud.com/ar/gsap/latest/plugins/CSSPlugin.min.js"></script>
+    <script src="https://lib.arvancloud.com/ar/gsap/latest/TimelineLite.min.js"></script>
+    <script src="https://lib.arvancloud.com/ar/gsap/latest/TweenLite.min.js"></script>
+    <script src="index.js"></script>
+   
+</body>
+</html>
